@@ -7,7 +7,7 @@ var questions = [
     {
         question: "During his embarrassing Dundie award presentation, who is Michael Scott presenting a Dundie award when he sings along to 'You Sexy Thing' by ’70s British funk band Hot Chocolate??",
         choices: ["Jim", "Ryan", "Danny", "Roy"],
-        answer: "green"
+        answer: "Ryan"
     },
     {
         question: "In 'The Alliance' episode, Michael is asked by Oscar to donate to his nephew’s walkathon for a charity. How much money does Michael donate, not realizing that the donation is per mile and not a flat amount?",
@@ -118,6 +118,146 @@ var questions = [
         question: "Which of Angela’s cats does Dwight freeze?",
         choices: ["Sparkles", "Miss Lady", "Bandit", "Sprinkles"],
         answer: "Sprinkles"
+    },
+    {
+        question: "Which cast member was having an affair with Angela’s fiancé, the senator?",
+        choices: ["Oscar", "Andy", "Dwight", "Stanley"],
+        answer: "Oscar"
+    },
+    {
+        question: "Which office employee did Michael hit with his car?",
+        choices: ["Creed", "Meredith", "Kelly", "Toby"],
+        answer: "Meredith"
+    },
+    {
+        question: "Who started the fire?",
+        choices: ["Dwight", "Darryl", "Ryan", "Michael"],
+        answer: "Ryan"
+    },
+    {
+        question: "What is Michael’s username for the online dating website?",
+        choices: ["2 Hot 4 U", "Date Mike", "WLLHNG", "Little Kid Lover"],
+        answer: "Little Kid Lover"
+    },
+    {
+        question: "What vegetable does Michael force-feed Kevin?",
+        choices: ["Broccoli", "Brussel Sprouts", "Carrots", "Peas"],
+        answer: "Broccoli"
+    },
+    {
+        question: "Whose mother does Michael date?",
+        choices: ["Jim", "Pam", "Ryan", "Kevin"],
+        answer: "Pam"
+    },
+    {
+        question: "Who convinces Dwight that the CIA is recruiting him?",
+        choices: ["Jim", "Michael", "Pam", "Mose"],
+        answer: "Pam"
+    },
+    {
+        question: "What is the name of Kevin’s cover band?",
+        choices: ["Scrantonicity", "Kevin and the Zits", "Mouse Rat", "Scrantonicity 2"],
+        answer: "Scrantonicity 2"
+    },
+    {
+        question: "Where does Jim propose to Pam?",
+        choices: ["Gas station", "The Office", "Pratt Institue", "New York City"],
+        answer: "Gas station"
+    },
+    {
+        question: "In the episode 'Basketball,' who does Michael say is on the team, ‘of course’?",
+        choices: ["Darryl", "Stanley", "Ryan", "Phyllis"],
+        answer: "Stanley"
+    },
+    {
+        question: "Where did Michael get his 'World’s Best Boss' mug?",
+        choices: ["Wal-Mart", "Sky Mall", "Spencer Gifts", "Sharper Image"],
+        answer: "Spencer Gifts"
+    },
+    {
+        question: "In the 'St. Patrick’s Day' episode, who gets sick on their first date with Andy?",
+        choices: ["Angela", "Jessica", "Jamie", "Erin"],
+        answer: "Erin"
+    },
+    {
+        question: "Who wins the Fun Run in season 4?",
+        choices: ["Toby", "Dwight", "Jim", "Michael"],
+        answer: "Toby"
+    },
+    {
+        question: "What actor on The Office shot the opening credit footage?",
+        choices: ["B.J. Novak", "John Krasinski", "Rainn Wilson", "Creed Bratton"],
+        answer: "John Krasinski"
+    },
+    {
+        question: "What item of clothing does Michael insist on having dry cleaned?",
+        choices: ["His socks", "His shirts", "His jeans", "His underwear"],
+        answer: "His jeans"
+    },
+    {
+        question: "Who wins the bronze medal in the episode, “Office Olympics”?",
+        choices: ["Michael", "Dwight", "Kevin", "Jim"],
+        answer: "Jim"
+    },
+    {
+        question: "In the episode “Diwali,” who attempts to kiss Pam?",
+        choices: ["Michael", "Toby", "Roy", "Jim"],
+        answer: "Michael"
+    },
+    {
+        question: "Which one of Michael’s girlfriends in The Office was played by Steve Carell’s real-life wife?",
+        choices: ["Jan", "Carol", "Holly", "Donna"],
+        answer: "Carol"
+    },
+    {
+        question: "What can Dwight Shrute supposedly raise and lower at his will?",
+        choices: ["His blood pressure", "His heart rate", "His cholesterol", "His temperature"],
+        answer: "His cholesterol"
+    },
+    {
+        question: "What movie does Michael say that Dwight cried during?",
+        choices: ["Apollo 13", "Independence Day", "Deep Impact", "Armageddon"],
+        answer: "Armageddon"
+    },
+    {
+        question: "When is Michael’s birthday?",
+        choices: ["March 15", "May 23", "August 4", "November 30"],
+        answer: "March 15"
+    },
+    {
+        question: "Who was sent to anger management?",
+        choices: ["Dwight", "Andy", "Packer", "Darryl"],
+        answer: "Andy"
+    },
+    {
+        question: "What is the name of the annual employee awards night on the show?",
+        choices: ["Mifflies", "Scott's Awards", "Dundies", "Mikies"],
+        answer: "Dundies"
+    },
+    {
+        question: "In the episode 'Goodbye Michael,' what does Pam say Michael seems full of at the end of the episode?",
+        choices: ["Wonder", "Excitement", "Fear", "Hope"],
+        answer: "Hope"
+    },
+    {
+        question: "In the episode 'Chair Model,' Pam would receive Michael’s chair when he got a new one. Who would get Pam’s chair?",
+        choices: ["Creed", "Andy", "Jim", "Oscar"],
+        answer: "Creed"
+    },
+    {
+        question: "After the Fun Run to beat Rabies, who is the oversized check made out?",
+        choices: ["Rabies", "Science", "Nurses", "Doctors"],
+        answer: "Science"
+    },
+    {
+        question: "Based on where he eats most often, what is Michael Scott’s favorite restaurant?",
+        choices: ["Outback Steakhouse", "Applebees", "Chili’s", "Perkins"],
+        answer: "Chili’s"
+    },
+    {
+        question: "What art school did Pam go to?",
+        choices: ["Art Institute", "New York University", "Lackawanna Community College", "Pratt Institute"],
+        answer: "Pratt Institute"
     }
 ]
 

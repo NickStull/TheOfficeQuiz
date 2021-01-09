@@ -5,14 +5,13 @@ var randQuestion = Math.floor(Math.random() * 4);
 var score = 0
 var timeLeft = 0
 var scoreList = [];
+var num = [];
 
 function onSiteLoaded() {
     mainDiv.innerHTML = "";
     if (localStorage.getItem("highScores") != null) {
         scoreList = JSON.parse(localStorage.getItem("highScores"));
-        console.log("This Ran")
     }
-        console.log(scoreList);
     loadQuizIntro();
 }
 
@@ -147,7 +146,10 @@ function setTimer() {
 }
 
 function setQuestion() {
-    randQuestion = Math.floor(Math.random() * questions.length)
+    while (num.includes(randQuestion)){
+        randQuestion = Math.floor(Math.random() * questions.length);
+    }
+    num.push(randQuestion);
     var quizQuestion = document.getElementById("quizQuestion");
     var buttonA = document.getElementById("optionA");
     var buttonB = document.getElementById("optionB");
@@ -164,25 +166,22 @@ function answerCheck(e) {
     var scoreEl = document.getElementById("quizScore");
     var timer = document.getElementById("timer")
     if (e.target.textContent === questions[randQuestion].answer) {
-        console.log("CORRECT!");
-        score++
-        scoreEl.textContent = "Score: " + score
+        score++;
+        scoreEl.textContent = "Score: " + score;
     }
     else {
-        console.log("FALSE!");
         timeLeft -= 5
         if (timeLeft > 0) {
             timer.textContent = "TIME LEFT: " + timeLeft;
         }
         else {
             timer.textContent = "TIME LEFT: 0";
-        }
-    }
+        };
+    };
     setQuestion();
 }
 
 function submitScore() {
-    console.log(score);
     var quizDiv = document.getElementById("quizDiv");
     quizDiv.innerHTML = ""
 
@@ -215,12 +214,10 @@ function submitScore() {
             name: userName,
             score: score
             };
-            console.log(currentScore);
             scoreList.push(currentScore); 
             scoreList.sort(function(a, b){
                 return b.score - a.score
             });
-            console.log(scoreList);
             localStorage.setItem("highScores", JSON.stringify(scoreList));
             loadHighScores();
         }
