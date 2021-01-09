@@ -6,17 +6,40 @@ var questions = [
     },
     {
         question: "What color is grass?",
-        choices: ["green", "yellow", "red", "blue"],
+        choices: ["yellow", "green", "blue", "red"],
         answer: "green"
     },
     {
         question: "What color are bananas?",
-        choices: ["green", "yellow", "red", "blue"],
+        choices: ["red", "blue", "green", "yellow"],
         answer: "yellow"
     },
     {
         question: "What color are apples?",
-        choices: ["green", "yellow", "red", "blue"],
+        choices: ["blue", "red", "yellow", "green"],
         answer: "red"
     }
 ]
+
+
+// Add time left after
+// change main div attributes to css
+// on site load go directly to first function
+// put remove child next to each other
+
+
+// var userName = formEl.value.trim();
+//         var highScores = {
+//             name: userName,
+//             score: score
+//         }
+//         var scoreList = JSON.parse(localStorage.getItem(highScores));
+//         console.log(scoreList);
+
+//         if (userName === "") {
+//             alert("Please enter your name or initials");
+//             return;
+//         }
+//         else {
+//             localStorage.setItem("highScores", JSON.stringify(highScores));
+//         }
