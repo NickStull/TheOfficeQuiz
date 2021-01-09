@@ -13,6 +13,8 @@ Published website: (https://nickstull.github.io/TheOfficeQuiz/)
 
 ## Screenshots:
 
-<img src="https://github.com/NickStull/Password_Generator/blob/main/Assets/screenshots/before_generating_password.png" width=50% height=50%>
+<img src="https://github.com/NickStull/TheOfficeQuiz/blob/main/assets/screenshots/quiz_homescreen.png" width=50% height=50%>
 
-<img src="https://github.com/NickStull/Password_Generator/blob/main/Assets/screenshots/after_generating_password.png" width=50% height=50%>
+<img src="https://github.com/NickStull/TheOfficeQuiz/blob/main/assets/screenshots/quiz_questions.png" width=50% height=50%>
+
+<img src="https://github.com/NickStull/TheOfficeQuiz/blob/main/assets/screenshots/quiz_highscores.png" width=50% height=50%>
