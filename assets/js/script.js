@@ -36,7 +36,7 @@ function loadQuizIntro(){
 
     var pEl = document.createElement("p");
         mainDiv.appendChild(pEl);
-        pEl.textContent = "This is the hardest The Office quiz on the internet. You will have 60 seconds to answer as many questions as possible. Each question answered correct is 1 point. Each wrong answer is penalized with a 10 second penalty. GOOD LUCK!";
+        pEl.textContent = "This is the hardest The Office quiz on the internet. You will have 60 seconds to answer as many questions as possible. Each question answered correct is 1 point. Each wrong answer is penalized with a 5 second penalty. GOOD LUCK!";
         pEl.setAttribute("style", "text-align: center");
         pEl.setAttribute("id", "pEl");
 
@@ -188,17 +188,20 @@ function submitScore() {
 
     var scoreEl = document.createElement("h2");
     quizDiv.appendChild(scoreEl);
+    scoreEl.setAttribute("style", "text-align: Center");
     scoreEl.textContent = "Score: " + score;
 
     var formEl = document.createElement("input");
     quizDiv.appendChild(formEl);
     formEl.setAttribute("type", "text");
-    formEl.setAttribute("placeholder", "Enter Your Name Here!")
+    formEl.setAttribute("placeholder", "Enter Your Name Here!");
+    formEl.setAttribute("style", "display: block; margin: auto; padding: 10px");
 
     var submitEl = document.createElement("input");
     quizDiv.appendChild(submitEl);
     submitEl.setAttribute("type", "submit");
     submitEl.setAttribute("value", "Submit High Score!");
+    submitEl.setAttribute("style", "display: block; margin: auto; margin-top: 10px");
 
     submitEl.addEventListener("click", function(e) {
         e.preventDefault();
